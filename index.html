@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wildlife Conservation Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Wildlife & Nature Conservation</h1>
+    <hr>
+
+    <!-- Navigation Menu -->
+    <div class="menu">
+        <a href="#home">Home</a> | 
+        <a href="#about">About Us</a> | 
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Home Section -->
+    <h2 id="home">Save Our Wildlife</h2>
+    <p>Welcome to our website. We work to protect endangered species and natural habitats around the world.</p>
+
+    <!-- About Section -->
+    <h3 id="about">Endangered Animals</h3>
+    <ul>
+        <li>Bengal Tiger - Critically endangered due to poaching.</li>
+        <li>Asian Elephant - Threatened by habitat loss.</li>
+        <li>Snow Leopard - Facing severe climate threats.</li>
+    </ul>
+
+    <br>
+    <!-- Basic JS Button -->
+    <button onclick="showPopup()">Click to Support</button>
+
+    <!-- Contact / Pledge Form -->
+    <h3 id="contact">Join Our Mission</h3>
+    <form onsubmit="submitForm(event)">
+        <label>Your Name:</label><br>
+        <input type="text" id="nameBox" required><br><br>
+
+        <label>Your Email:</label><br>
+        <input type="email" id="emailBox" required><br><br>
+
+        <input type="submit" value="Submit Form">
+    </form>
+
+    <p id="successMessage" style="color: green; font-weight: bold;"></p>
+
+    <br><br>
+    <footer>
+        <p>&copy; 2026 Wildlife Protection Exam Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
