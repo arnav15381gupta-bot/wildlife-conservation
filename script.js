@@ -10,5 +10,4 @@ function submitForm(event) {
     var userName = document.getElementById("nameBox").value;
     
     // Display a simple confirmation message on the screen
-    document.getElementById("successMessage").innerHTML = "Thank you, " + userName + "! Your details have been recorded.";
-}
+    document.getElementById("successMessage").innerHTML = "Thank you, " + userName + "! Yo
